@@ -1,0 +1,8 @@
+.error {
+  padding: 120px 0;
+  background-image: url("../../images/body_bg.png");
+}
+.error h1 {
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,66 @@
+.form {
+  padding: 100px 0;
+  background-image: url("../../../../images/body_bg.png");
+}
+.form h3 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+form {
+  margin-top: 40px;
+}
+form input {
+  width: 60%;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  caret-color: white;
+  margin-bottom: 20px;
+} 
+
+form input:focus {
+  outline: none;
+}
+.form .send {
+  display: block;
+  width: fit-content;
+  margin-top: 40px;
+  text-decoration: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  color: white;
+  background-color: var(--main-color);
+  padding: 20px 60px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  font-weight: bold;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.form .send:hover {
+  background-color: #000;
+}
+@media (max-width: 992px) {
+  .form h3 {
+    font-size: 30px;
+  }
+  .active {
+    margin-left: 0;
+  }
+  .form img {
+    width: 250px;
+  }
+}

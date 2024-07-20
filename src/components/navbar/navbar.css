@@ -1,0 +1,28 @@
+nav {
+  background-image: url("../../images/body_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: -1px 2px 0 0 var(--main-color);
+}
+nav ul li a {
+  color: white !important;
+  font-size: 20px !important;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+nav ul li a:hover {
+  color: var(--main-color) !important;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled):focus,
+button:not(:disabled):focus {
+  box-shadow: none;
+}

@@ -1,0 +1,109 @@
+.footer {
+  padding: 100px 0;
+  padding-bottom: 20px;
+  background-image: url("../../images/body_bg.png");
+  background-repeat: no-repeat;
+  border-top: 1px solid var(--main-color);
+  color: white;
+}
+.footer h4 {
+  font-size: 40px;
+}
+.footer p {
+  font-size: 22px;
+}
+.social {
+  display: flex;
+  margin-left: -30px;
+}
+.social li {
+  margin-top: 20px;
+  background-color: white;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.social li:hover {
+  background-color: var(--main-color);
+}
+.social li a {
+  color: #4c1e0d;
+  font-size: 22px;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+.social li a:hover {
+  color: white;
+}
+.social li:not(:nth-child(1)) {
+  margin-left: 30px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+.footerLinks li {
+  padding-bottom: 20px;
+}
+
+.footerLinks li a {
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.footerLinks li a:hover {
+  color: var(--main-color);
+}
+.footer input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  caret-color: var(--main-color);
+}
+.footer input:focus {
+  outline: none;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.footer-two {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-two span {
+  color: var(--main-color);
+}

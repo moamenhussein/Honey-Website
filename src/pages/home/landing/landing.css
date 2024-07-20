@@ -1,0 +1,66 @@
+.landing {
+  position: relative;
+  height: 100vh;
+  background-image: url("../../../images/body_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.landing .landing-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.landing h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.landing p {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.landing a {
+  display: block;
+  text-transform: uppercase;
+  background-color: var(--main-color);
+  margin-top: 50px !important;
+  width: fit-content;
+  padding: 20px 80px;
+  text-decoration: none;
+  color: white !important;
+  font-size: 25px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.landing a:hover {
+  background-color: #000;
+}
+.landing img {
+  width: 500px;
+  padding-bottom: 80px;
+}
+@media(max-width: 996px) {
+  .landing h2 {
+    margin-top: 80px;
+    font-size: 40px;
+  }
+  .landing img {
+    width: 250px;
+    margin-top: 30px;
+    padding-bottom: 150px;
+  }
+}
